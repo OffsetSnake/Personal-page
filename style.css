@@ -1,0 +1,131 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.bmain{
+	background-image: url(img/bg.jpg);
+}
+
+.content{
+	display: flex;
+	margin: 20px 300px;
+}
+
+.nav-el{
+	text-transform: uppercase;
+	text-decoration: none;
+	display:block;
+	padding: 10px;
+	width: 200px;
+	color: #fff;
+	background-color: #46C7C7;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	border: none;
+	transition: background-color 0.5s linear;
+}
+
+.nav-el:hover{
+	background-color: #151B54;
+	cursor: pointer;
+}
+
+.frame{
+	background-image: url(img/bgframe.jpg);
+	width: 600px;
+	height: 650px;
+	border: none;
+}
+
+/*Описание стилей для страницы home.html*/
+
+.homebox{
+	text-align: center;
+	margin: 30px 50px;
+}
+
+.homebox h1,h3{
+	margin: 10px 0px;
+}
+
+.image{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	transition: transform 0.5s linear;
+}
+
+.image:hover{
+	transform: rotateY(180deg);
+}
+
+.ticker{
+	padding: 15px 10px;
+	color: #fff;
+	background-color: #46C7C7;
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+}
+
+.icon{
+	margin: 0 5px;
+	max-width: 50px;
+	max-height: 50px;
+	transition: border background-color 0.5s linear;
+}
+
+.icon:hover{
+	border: 2px solid black;
+	background-color: #46C7C7;
+	border-radius: 50%;
+}
+
+/*Описание стилей для страницы resume.html*/
+
+.resumebox{
+	margin: 20px 50px;	
+}
+
+.resumebox h1{
+	margin: 0px;
+}
+
+.resumebox h2{
+	color: #46C7C7;
+}
+
+p{
+	word-wrap: inherit;
+}
+
+.buttoms{
+	display: flex;
+	margin-top: 10px;
+}
+
+.btn{
+	border:none;
+	background-color: #000;
+	color: #fff;
+	margin-right: 5px;
+	padding: 10px;
+}
+
+.btn:hover{
+	color: #46C7C7;
+}
+
+.article{
+	border: 5px double black;
+	margin: 20px 0px;
+	padding: 10px;
+}
+
+.italic{
+	font-style: italic;
+	color: #5C5858;
+}
